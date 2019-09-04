@@ -9,7 +9,7 @@ fi
 
 # Create the latex-mode dir.
 if [ ! -d "$1"/snippets/latex-mode ]; then
-	mkdir "$1"/snippets/latex-mode
+	mkdir -p "$1"/snippets/latex-mode
 fi
 
 # Copy needed files to the latex-mode dir.
